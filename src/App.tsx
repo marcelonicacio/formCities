@@ -1,11 +1,14 @@
-import { useState } from 'react'
+import { AppRoutes } from './routes'
+import { BrowserRouter } from 'react-router-dom'
 
 export const App = () => {
 
   return (
-    <div className="App">
-      <h1>olá</h1>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+       <AppRoutes/>
+      </div>
+    </BrowserRouter>
   )
 }
 
