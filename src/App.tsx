@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function App() {
+export const App = () => {
 
   return (
     <div className="App">
@@ -9,4 +9,3 @@ function App() {
   )
 }
 
-export default App
